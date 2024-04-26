@@ -1,0 +1,1909 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family:"myCustomfont";
+    src:url("/SourceSans3-Regular.ttf")
+}
+
+@import 'variables';
+
+@import url("image/d2e9741e-985e-4f03-8630-cb7dee3618c0.jpg");
+@import url("image/d40a8aba-b1a7-43f3-ad7f-bdec2914a0fc.jpg");
+@import url("image/fb410f8f-d02c-4d67-b536-84b0b922aca2.jpg");
+@import url("image/d40a8aba-b1a7-43f3-ad7f-bdec2914a0fc.jpg");
+@import url("image/598e7567-1e4f-4d12-b9b7-c36347999416.jpg");
+@import url("image/d2e9741e-985e-4f03-8630-cb7dee3618c0.jpg");
+@import url("image/f9b90696-ba98-4212-bbf9-2647785ef865.jpg");
+
+.hammenu{
+    .overlay {
+        height: 100%;
+        width: 0;
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+      }
+      
+      .overlay-content {
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+      }
+      
+      .overlay a {
+        font-family: "myCustomfont", Source Sans Pro;
+        padding: 8px;
+        text-decoration: none;
+        font-size: 36px;
+        color: $whitetwo;
+        display: block;
+        transition: 0.3s;
+      }
+      
+      .overlay a:hover, .overlay a:focus {
+        color: #f1f1f1;
+      }
+      
+      .overlay .closebtn {
+        font-family: "myCustomfont", Source Sans Pro;
+        position: absolute;
+        top: 8px;
+    right: 33px;
+        font-size: 60px;
+      }
+      span{
+        font-family: "myCustomfont", Source Sans Pro;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 40px;
+    padding-top: 35px;
+      }
+      
+}
+
+  @media screen and (min-width: 769px) {
+    .hammenu{
+        
+    }
+    
+    
+  }
+
+
+
+
+// header
+#image{
+    background-image: url("image/f9b90696-ba98-4212-bbf9-2647785ef865.jpg");
+    height: 100vh;
+    background-position-y:center;
+    background-size: cover;
+    object-fit: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: "myCustomfont", Source Sans Pro;
+.first{
+    font-size: $base-h-one;
+    font-weight: bold;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-style: italic;
+    font-weight: bolder;
+    flex-wrap: wrap;
+    font-size:$paragraph-text;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 50px;
+    flex-wrap: wrap;
+    
+
+}
+a{
+    font-family: "myCustomfont", Source Sans Pro;
+    background-color: $cadetblue;
+padding: 16px;
+color: $whitetwo;
+border-radius: 3px;
+text-decoration: none;
+font-weight: bolder;
+width: 100px;
+text-align: center;
+
+}
+
+}
+  //end header 
+  
+
+   
+
+
+
+// about
+#con{
+
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-family: "myCustomfont", Source Sans Pro;
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+  .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  a{
+    text-align: center;
+    background-color: $black;
+    padding: 16px;
+    width: 100px;
+    border-radius: 3px;
+color:$whitetwo;
+margin: 50px;
+font-weight: bolder;
+text-decoration: none;
+  }
+
+  
+  h2{
+    font-size: $base-h-two;
+    font-weight: bold;
+  }
+p{
+    font-size: 18px;
+    color: $black;
+}
+
+}
+// end about
+
+
+// services
+#services{
+        
+    background-color: rgb(0,128,163);
+    
+.container{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+    .service{
+        padding-bottom: 50px;
+        text-align: center;
+        h2{
+            font-size:35px;
+            color:$whitetwo;
+            font-family: "myCustomfont", Source Sans Pro;
+        }
+        
+    h3{
+        font-family: "myCustomfont", Source Sans Pro;
+        color: $orange;
+    }
+   
+    }
+
+
+   
+
+    .icon{
+        font-family: "myCustomfont", Source Sans Pro;
+        display: flex;
+         align-content: space-evenly;
+         justify-content: space-evenly;
+    
+    }
+
+    .head{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+       
+        color: $white;
+        text-align: center;
+         
+                .circleMin{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    align-content: center;
+                    height: 70px;
+                    width: 70px;
+                    background-color:$whitetwo;
+                    border-radius: 50%;
+             
+                   .blue{
+height: 30px;
+width: 30px;
+                   }
+                }
+
+                 
+                .circleMin1{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    align-content: center;
+                    height: 70px;
+                    width: 70px;
+                    background-color: $whitetwo;
+                    border-radius: 50%;
+                   .blue{
+                    color: #5A9CFF;
+                    font-size: 23px;
+                   }
+                }
+            h3{
+                color: $whitetwo;
+            }
+              
+
+         
+    }
+
+  .danny-mus{
+    height: 33px;
+    width: 33px;
+    background-color: $whitetwo;
+    border-radius: 50px;
+  }
+  p{
+    font-family: "myCustomfont", Source Sans Pro;
+    font-size: $inside-text;
+    
+  }
+}
+
+
+// what we offer
+.site{
+    background-image: url(image/d2e9741e-985e-4f03-8630-cb7dee3618c0.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: left center;
+   padding-top: 200px;
+   padding-bottom: 150px;
+   font-family: "myCustomfont", Source Sans Pro;
+    
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+        
+    }
+    a{
+        font-family: "myCustomfont", Source Sans Pro;
+        font-size: $base-a;
+        padding: 16px;
+        color: $whitetwo;
+        background-color: $cadetblue;
+        width: 100px;
+        border-radius: 3px;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+
+    .head{
+        font-family: "myCustomfont", Source Sans Pro;
+        font-size:$base-site-head;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sharp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+}
+
+
+#folio{
+    font-family: "myCustomfont", Source Sans Pro;
+    margin-top: 93px;
+margin-bottom: 100px;
+.head {
+    font-family: "myCustomfont", Source Sans Pro;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.port{
+    display: flex;
+    justify-content: center;
+    color: $orange;
+    font-size: 18px;
+}
+
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 165px;
+    padding-right: 165px;
+   
+}
+    .Sassy{
+       
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        justify-content: center;
+    
+
+    }
+    
+    .box1{
+        background-image: url(image/598e7567-1e4f-4d12-b9b7-c36347999416.jpg);
+        background-repeat: no-repeat;
+        width: 50%;
+    object-fit: cover;
+    .font{
+        font-weight: 100;
+        font-size: 16px;
+       }
+
+       
+    }
+    
+    .box2{
+        background-image: url(image/d40a8aba-b1a7-43f3-ad7f-bdec2914a0fc.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 50%;
+      height: 330px; 
+      .font{
+        font-size: 16px;
+        font-weight: 100;
+       }
+     
+    }
+    
+    .box3{
+        background-image: url(image/d2e9741e-985e-4f03-8630-cb7dee3618c0.jpg);
+        background-size: cover;
+        background-position-y: center;
+        width: 50%;
+      
+        .font{
+            font-size: 16px;
+            font-weight: 100;
+           }
+       
+    }
+    
+    .box4{
+        background-image: url(image/fb410f8f-d02c-4d67-b536-84b0b922aca2.jpg);
+        background-size: cover;
+        background-position-y: center;
+        width: 50%;
+       height: 330px;
+       
+       .font{
+        // top: 20vh;
+        font-size: 16px;
+        font-weight: 100;
+       }
+       
+    }
+
+    .box{
+        
+        color: $white;
+    }
+    
+    h5{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        font-family: "myCustomfont", Source Sans Pro;
+        margin-left: 23px;
+        top: 30vh;
+        position: relative;
+        top: 35vh;
+        
+    
+    }
+    .boxx{
+        font-family: "myCustomfont", Source Sans Pro;
+        font-size:$base-boxx;
+        font-weight: 600;
+        color: $whitetwo;
+    }
+   
+.lio{
+    font-size: 23px;
+}
+
+}
+
+// end portfolio
+
+
+
+// buttons
+#buttons{
+    background-color: $cadetblue;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "myCustomfont", Source Sans Pro;
+.container{
+    margin-top: 85px;
+    margin-bottom: 60px;
+
+}
+h2{
+    color: $whitetwo;
+    font-size: $base-h-two;
+}
+     .contain{
+      padding-top: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+     }
+     
+     .head{
+        color: $white;
+     }
+     .me{
+        font-family: "myCustomfont", Source Sans Pro;
+        background-color:$white;
+        padding: 16px;
+        width: 100px;
+        border-radius: 3px;
+        text-align: center;
+        margin: 10px;
+        font-weight: 600;
+        
+      }
+      .black{
+        color: $black;
+        
+      }
+
+      .you{
+        font-family: "myCustomfont", Source Sans Pro;
+        background-color:$black ;
+        padding: 16px;
+        width: 100px;
+        border-radius: 3px;
+        text-align: center;
+        margin: 10px;   
+        font-weight: 600;
+      }
+
+      
+
+     a{
+       color: $whitetwo;
+        text-decoration: none;
+      
+     }
+
+    
+}
+
+// maps
+.maps{
+img{
+    width: 100%;
+}
+   
+    
+
+}
+
+
+// footer
+.footer{
+   
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+  .foot{
+    flex-direction: column;
+    display: flex;
+ 
+   .black{
+    color: white;
+    font-size: 30px;
+   }
+    // align-items: ;
+    text-align: center;
+    display: flex;
+
+
+    .circleMin {
+        align-content: center;
+        height: 50px;
+        width: 50px;
+        background-color: rgb(20, 125, 151);
+        border-radius: 50%;
+        gap: 40px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    
+
+  img{
+    height: 30px;
+    width: 30px;
+  }
+
+
+ 
+  }
+
+  .copy{
+    font-family: "myCustomfont", Source Sans Pro;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size:$paragraph-text;
+    margin-left: 5px;
+    
+p{
+    padding-top: 22px;
+    font-size: 15px;
+}
+  }
+
+  .allcons{
+  justify-content: space-between;
+    display: flex;
+}
+  
+}
+
+
+
+
+
+
+
+
+@media(max-width: 568px){
+
+    .hammenu{
+        .overlay a {font-size: 20px}
+        .overlay .closebtn {
+        font-size: 50px;
+        top: 6px;
+        right: 29px;
+        }
+        span{
+            margin-right: 36px;
+    padding-top: 27px;
+        }
+        .overlay{
+            background-color: rgb(0, 0, 0);
+        }
+    }
+   
+
+
+
+#image{
+overflow: hidden;
+    width: 100%;
+    height: 55vh;
+object-fit: cover;
+background-size: cover;
+background-position-y:center;
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: $small-h-one;
+       
+    }
+    p{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:$small-paragraph;
+    }
+    a{
+        border-radius: 3px;
+        font-size:$small-a;
+        width: 60px;
+    }
+    .container{
+       padding-top: 100px
+    }
+    .button{
+        margin: 30px;
+    }
+}
+
+
+#con{
+margin-top: 0px;
+margin-bottom: 0px;
+padding-top: 40px;
+padding-bottom: 40px;
+    h2{
+        text-align: center;
+        font-size:$small-htwo;
+    }
+    p{
+text-align: center;
+        padding-top: 10px;
+        font-size:$small-paragraph;
+    }
+    a{
+        font-size: $small-a;
+        width: 60px;
+        margin: 0px;
+        margin-top: 25px;
+    }
+    .container{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+
+
+
+#services{
+ padding-right: 0px;
+    overflow: hidden;
+    h3{
+    
+        font-weight: 700;
+        margin-top: 16px;
+        font-size: $small-hfour;
+        margin-bottom: 2px;
+    }
+    .service{
+        padding-bottom: 0px;
+        padding-left: 0px;
+        h2{
+            font-weight: 600;
+            font-size: 18px;
+        }
+       
+    }
+    .danny-mus{
+        
+            height: 20px;
+            width: 20px;
+            padding: 0px;
+        
+    }
+    .icon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .head1{
+        display: none;
+    }
+    .head2{
+    
+        // font-weight: 400;
+        margin-left: 40px;
+    }
+    .head{
+        padding-top: 15px;
+        margin: 0px;
+        margin-left: 0px;
+        .circleMin {
+            height: 45px;
+            width: 45px;
+            .blue {
+                height: 20px;
+                width: 20px;
+            }
+        }
+        .circleMin1 {
+            height: 45px;
+            width: 45px;
+        }
+        .shoe{
+            font-size: 8px;
+            color: rgba(255, 255, 255, 0.815);
+        }
+    
+    }
+     
+    p{
+        font-size:$small-paragraph;
+    }
+    .container{
+        padding-top: 40px;
+        padding-bottom:40px ;
+    }
+   
+
+}
+
+.site{
+    padding-bottom: 56px;
+        padding-top: 70px;
+    object-fit: cover;
+background-size: cover;
+background-position-y:center;
+    overflow: hidden;
+    h2{
+        font-size:$small-htwo;
+    }
+    a{
+        font-size:$small-a;
+        width: 68px;
+    }
+    .button{
+        margin: 20px;
+    }
+
+   
+}
+
+
+
+
+
+#folio{
+    overflow: hidden;
+margin: 0px;
+padding-top: 40px;
+padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+   
+   .lio{
+    font-size: 13px;
+   }
+
+.port{
+    
+        font-size:$small-hfour;
+    
+}
+
+
+.box{
+    
+   margin-left: 6px;
+   padding-top: 18px;
+    
+}
+
+h5 {
+    position: relative;
+         margin-left: 5px; 
+        top: 20vh; 
+    }
+
+
+
+    p{
+        font-size:$small-p;
+    }
+
+    .box3{
+        width: 336px;
+        height: 224px;
+        .font{
+            font-size:$small-paragraph;
+            font-weight: 100;
+        }
+        .boxx{
+            font-size: 8px;
+        }
+       
+    }
+
+    .box4{
+        width: 336px;
+        height: 224px;
+        
+        font-size:$small-a;
+        .font{
+            font-size:$small-paragraph;
+            font-weight: 100;
+        }
+        .boxx{
+            font-size: 8px;
+        }
+    }
+
+    .box1{
+       
+   
+        background-size: cover;
+        width: 336px;
+        height: 224px;
+       font-size: 10px;
+       .font{
+        font-size:$small-paragraph;
+        font-weight: 100;
+    }
+    .boxx{
+        font-size: 8px;
+    }
+
+
+
+    }
+    
+
+   
+
+    .box2{
+       
+        background-size: cover;
+        width: 336px;
+        height: 224px;
+        .font{
+            font-size:$small-paragraph;
+            font-weight: 100;
+        }
+        .boxx{
+            font-size: 8px;
+        }
+    }
+
+   .Sassy{
+
+        display: flex;
+        flex-direction: column;
+        
+        flex-wrap: nowrap;
+        margin-top: 12px;
+        justify-content: center;
+   }
+
+  
+
+}
+
+
+
+#buttons{
+    overflow: hidden;
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 23px;
+    padding-left: 20px;
+    padding-right: 20px;
+    h2{
+        text-align: center;
+        font-size:$small-htwo;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 32px;
+        
+    }
+    .container{
+
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    a{
+        font-size:$small-a;
+    
+    }
+    .me{
+        margin-top: 0px;
+        width: 68px;
+        padding: 10px;
+    }
+    .you{
+        margin-top: 0px;
+        width: 68px;
+        padding: 10px;
+    }
+    .contain{
+        padding-top: 2px;
+    }
+}
+
+.footer{
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+   
+    .copy{
+        p{
+            padding-top: 3px;
+            font-size: 9px;
+        }
+        .qwerty{
+         font-size: 10px;
+         color: black;   
+        }
+    }
+    .foot{
+        margin: 0px;
+       
+        .circleMin{
+            height: 35px;
+            width: 35px;
+            .black{
+                font-size: 15px;
+            }
+        }
+    }
+    span{
+        margin: 10px;
+    }
+    
+   
+    
+}
+
+
+.maps{
+    img{
+        height: 30vh;
+        object-fit: cover;
+    }
+   
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:569px) and (max-width: 768px){
+
+
+    .hammenu{
+        .overlay a {font-size: 40px}
+        .overlay .closebtn {
+            font-size: 58px;
+            top: 7px;
+            right: 44px;
+        }
+        span{
+            margin-right: 54px;
+            padding-top: 33px;
+        }
+        .overlay{
+            background-color: rgb(0, 0, 0);
+        }
+
+    }
+
+
+#image{
+overflow: hidden;
+    width: 100%;
+    height: 56vh;
+object-fit: cover;
+background-size: cover;
+background-position-y:center;
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:$large-h-one;
+       
+    }
+    p{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:$large-paragraph;
+    }
+    a{
+        padding: 16px;
+        width: 94px;
+        font-size:$large-a;
+    }
+    .container{
+       padding-top: 100px
+    }
+    .button{
+        margin: 35px;
+    }
+}
+
+
+#con{
+margin-top: 0px;
+margin-bottom: 0px;
+padding-top: 80px;
+padding-bottom: 80px;
+    h2{
+        text-align: center;
+        font-size:$large-h-two;
+    }
+    p{
+        text-align: center;
+        padding-top: 10px;
+        font-size:$large-paragraph;
+    }
+    a{
+        font-size:$large-a;  
+        width: 94px;
+        margin: 0px;
+        margin-top: 35px;
+    }
+    .container{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
+
+#services{
+    padding-right: 5px;
+    overflow: hidden;
+    h3{
+        font-size:$large-h-three;
+    }
+   
+   .icon{
+    
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+   }
+    p{
+        font-size:11px;
+    }
+    .container{
+        padding-top: 80px;
+        padding-right: 50px;
+        padding-right: 57px;
+        padding-left: 46px;
+        padding-bottom:80px ;
+    }
+    .head2{
+        margin-left: 0px;
+    }
+    .danny-mus{
+        height: 23px;
+        width: 23px;
+        padding: 0px;
+    }
+    .head{
+    .circleMin {
+        align-content: center;
+        height: 55px;
+        width: 55px;
+        border-radius: 50%;
+        .blue{
+            height: 20px;
+            width: 20px;
+        }
+       
+    }
+    .circleMin1 {
+        height: 55px;
+        width: 55px;
+    }
+    .shoe{
+        font-size: 9px;
+    }
+    }
+    .service{
+        padding-bottom: 40px;
+        h2{
+            font-size:29px;
+        }
+    }
+
+   
+}
+
+.site{
+    padding-bottom: 90px;
+    padding-top: 90px;
+    overflow: hidden;
+    h2{
+        font-size:$large-h-two;
+    }
+    a{
+        padding: 16px;
+        text-align: center;
+        margin-top: 25px;
+        font-size:$large-a;
+        width: 94px;
+    }
+    .button{
+        margin: 8px;
+    }
+
+}
+
+
+
+#folio{
+   margin-top: 80px;
+   margin-bottom: 80px;
+   .portfolio{
+    padding-left: 50px;
+    padding-right: 50px;
+   }
+   h5{
+    margin-left: 20px;
+   }
+   h2{
+    margin-left: 30px;
+   }
+
+   .box1,.box2,.box3,.box4{
+    .font{
+        font-size: 11px;
+        font-weight: 100;
+       }
+       .boxx{
+        font-size: 9px;
+       }
+   }
+   .box2,.box4{
+    width:50%;
+    height: 300px;
+   }
+
+   .port{
+    font-size: 16px;
+}
+.lio{
+    font-size: 21px;
+}
+
+h5{
+    position: relative;
+    top: 20vh;
+}
+
+}
+
+
+
+
+
+#buttons{
+    overflow: hidden;
+    margin-top: 0px;
+    padding-top: 80px;
+    padding-bottom: 65px;
+    padding-left: 20px;
+    padding-right: 20px;
+    h2{
+
+        font-size:$large-h-two;
+        text-align: center; 
+    }
+    .container{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    a{
+        font-size:$large-a;
+    
+    }
+    .me{
+        font-weight: bold;
+        margin-top: 0px;
+        width: 94px;
+        padding: 16px;
+    
+    }
+    .you{
+      
+        font-weight: bold;
+        margin-top: 0px;
+        width: 94px;
+        padding: 16px;
+    
+    }
+    
+    .contain{
+        padding-top: 5px;
+    }
+}
+
+.maps{
+    .container{
+        iframe{
+            height: 30vh;
+            width: 100%;
+    }
+       
+        
+    }
+    }
+
+.footer{
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-bottom: px;
+   
+   .copy{
+    p{
+        font-size:13px;
+        .qwerty{
+            font-size: 10px;
+        }
+    }
+   }
+    .foot{
+        margin: 0px;
+        .circleMin{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 45px;
+            width: 45px;
+            margin-bottom: 0px;
+        }
+        .black {
+            color: white;
+            font-size: 18px;
+        }
+    }
+    span{
+        margin: 20px;
+    }
+
+   
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:769px) and (max-width: 920px){
+
+    .hammenu{
+        .overlay a {font-size: 40px}
+        .overlay .closebtn {
+        font-size: 58px;
+        top: 7px;
+        right: 44px;
+        }
+        span{
+            margin-right: 54px;
+    padding-top: 33px;
+        }
+        .overlay-content{
+            top: 13%;
+        }
+
+        .overlay
+        {
+            background-color: rgb(0, 0, 0);
+        }
+    }
+
+
+#image{
+overflow: hidden;
+    width: 100%;
+    height: 48vh;
+object-fit: cover;
+background-size: cover;
+background-position-y:center;
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:50px;
+       
+    }
+    p{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:15px;
+    }
+    a{
+        padding: 16px;
+        font-size:14px;
+        width: 94px;
+    }
+    .container{
+       padding-top: 100px
+    }
+    .button{
+    margin: 40px;
+    }
+}
+
+
+#con{
+margin-top: 0px;
+margin-bottom: 0px;
+padding-top: 90px;
+padding-bottom: 90px;
+    h2{
+        text-align: center;
+        font-size:27px;
+    }
+    p{
+       text-align: center;
+        padding-top: 20px;
+        font-size:15px;
+    }
+    a{
+        padding: 16px;
+        font-size:14px;
+        width: 94px;
+        margin: 0px;
+        margin-top: 40px;
+    }
+    .container{
+        padding-right: 76px;
+        padding-left: 76px;
+    }
+}
+
+
+#services{
+    padding-right: 0px;
+    overflow: hidden;
+    h3{
+        font-size:$large-h-three;
+    }
+  
+   .icon{
+   
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+   }
+    p{
+        font-size:12px;
+    }
+    .container{
+        padding-right: 50px;
+    padding-left: 40px;
+        padding-top: 90px;
+        padding-bottom:90px ;
+    }
+    .head2{
+        margin-left: 0px;
+    }
+    .danny-mus{
+        padding: 0px;
+        height: 23px;
+        width: 23px;
+    }
+    .head{
+    margin-left: 15px;
+    .circleMin {
+        align-content: center;
+        height: 55px;
+        width: 55px;
+        border-radius: 50%;
+        .blue{
+            height: 20px;
+            width: 20px;
+        }
+       
+    }
+    .circleMin1 {
+        height: 55px;
+        width: 55px;
+    }
+    }
+    .service{
+        padding-bottom: 40px;
+        padding-left: 0px;
+        text-align: center;
+        h2{
+            font-size:29px;
+        }
+    }
+
+   
+}
+
+
+.site{
+        padding-bottom: 110px;
+        padding-top: 102px;
+    overflow: hidden;
+    h2{
+        font-size:27px;
+    }
+    a{
+        border-radius: 3px;
+        padding: 16px;
+        text-align: center;
+        margin-top: 25px;
+        font-size:14px;
+        width: 94px;
+    }
+    .button{
+        margin: 8px;
+    }
+
+}
+
+
+#folio{
+    .box1,.box2,.box3,.box4{
+        .font{
+            font-weight: 100;
+            font-size: 12px;
+           }  
+           .boxx{
+            font-size: 10px;
+           }
+    }
+   .portfolio{
+    padding-left: 76px;
+    padding-right: 76px;
+   }
+  
+   h2{
+    margin-left: 30px;
+   }
+   .port{
+    font-size: 16px;
+   }
+   .lio{
+    font-size: 21px;
+   }
+   .box2,.box4{
+    height: 280px;
+   }
+   h5{
+    position: relative;
+    top: 16vh;
+}
+   
+}
+
+
+#buttons{
+    overflow: hidden;
+    margin-top: 0px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-left: 42px;
+    padding-right: 20px;
+    h2{
+        font-size:27px;
+        text-align: center;
+        padding-left: 32px;
+        
+    }
+    .contain{
+        padding-top: 0px;
+    }
+    .container{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    a{
+        font-size:14px;
+    
+    }
+    .me{
+        margin-top: 0px;
+        width: 94px;
+        padding: 16px;
+        font-weight: bold;
+    }
+    .you{
+        font-weight: bold;
+        margin-top: 0px;
+        width: 94px;
+        padding: 16px;
+    }
+}
+
+.maps{
+    .container{
+        // height: 3vh;
+        iframe{
+            height: 30vh;
+            width: 100%;
+    }
+       
+        
+    }
+    }
+
+.footer{
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-bottom: px;
+   
+    p{
+        font-size:17px;
+    }
+    .foot{
+        margin: 0px;
+        .black {
+            color: white;
+            font-size: 18px;
+        }
+    }
+    span{
+        margin: 20px;
+    }
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:921px) and (max-width: 1024px){
+
+    .hammenu{
+        .overlay-content{
+            top: 10%;
+        }
+            .overlay {
+                height: 100%;
+            }
+        .overlay a {font-size: 40px}
+        .overlay .closebtn {
+            font-size: 58px;
+            top: 7px;
+            right: 44px;
+        }
+        span{
+            margin-right: 54px;
+            padding-top: 33px;
+        }
+        .overlay{
+            background-color: rgb(0, 0, 0);
+        }
+    }
+
+
+#image{
+overflow: hidden;
+    width: 100%;
+    height: 42vh;
+object-fit: cover;
+background-size: cover;
+background-position-y:center;
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:50px;
+       
+    }
+    .button{
+        margin: 45px;
+    }
+    p{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:18px;
+    }
+    a{
+        padding: 16px;
+        font-size:17px;
+        width: 120px;
+    }
+    .container{
+       padding-top: 100px
+    }
+}
+
+
+#con{
+margin-top: 0px;
+margin-bottom: 0px;
+padding-top: 100px;
+padding-bottom: 100px;
+    h2{
+        text-align: center;
+        font-size:32px;
+    }
+    p{
+        padding-top: 18px;
+        font-size:18px;
+    }
+    a{
+        padding: 16px;
+        font-size:17px;
+        width: 120px;
+        margin: 0px;
+        margin-top: 45px;
+    }
+    .container{
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
+
+
+
+#services{
+   
+    .container{
+        padding-right: 50px;
+    padding-left: 46px;
+        padding-top: 100px;
+        padding-bottom:96px ;
+    }
+    .head{
+margin-left: 28px;
+        .circleMin1{
+            margin-bottom: 0px;
+            height: 65px;
+            width: 65px;
+        }
+        .circleMin{
+            height: 65px;
+            width: 65px;
+        }
+    }
+    
+    .danny-mus{
+        padding: 0px;
+    }
+    .service{
+        h2{
+            font-size: 35px;
+        }
+    }
+
+}
+
+.site{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    overflow: hidden;
+    h2{
+        font-size:32px;
+    }
+    a{
+        margin-top: 30px;
+        font-size:17px;
+        width: 120px;
+        padding: 16px;
+    }
+    .button{
+        margin: 15px;
+    }
+
+}
+
+
+#folio{
+    margin-top: 100px;
+    margin-bottom: 100px;
+   .portfolio{
+    padding-left: 50px;
+    padding-right: 50px;
+   }
+   h5{
+    position: relative;
+    top: 16vh;
+}
+
+   h2{
+    margin-left: 30px;
+   }
+
+   .lio{
+    font-size: 23px;
+   }
+   .port{
+    font-size: 18px;
+   }
+   .box1,.box2,.box3,.box4{
+    .font{
+font-size: 16px;
+    }
+    .boxx{
+        font-size: 13px;
+    }
+   }
+}
+
+
+#buttons{
+    overflow: hidden;
+    margin-top: 0px;
+    padding-top: 100px;
+    padding-bottom: 90px;
+    padding-left: 42px;
+    padding-right: 20px;
+    h2{
+        font-size:32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 32px;
+        
+    }
+    .container{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    a{
+        font-size:17px;
+    
+    }
+    .me{
+        margin-top: 0px;
+        width: 120px;
+        padding: 16px;
+        font-weight: bold;
+    }
+    .you{
+        font-weight: bold;
+        margin-top: 0px;
+        width: 120px;
+        padding: 16px;
+    }
+
+.contain{
+    padding-top: 0px;
+}
+
+
+}
+.maps{
+    .container{
+        iframe{
+            height: 30vh;
+            width: 100%;
+    }
+       
+        
+    }
+    }
+
+.footer{
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-bottom: px;
+   
+    p{
+        font-size:18px;
+    }
+    .foot{
+        .circleMin{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        margin: 0px;
+        .black {
+            color: white;
+            font-size: 20px;
+        }
+    }
+    span{
+        margin: 20px;
+    }
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

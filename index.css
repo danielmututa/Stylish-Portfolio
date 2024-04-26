@@ -1,0 +1,1477 @@
+@import url("image/d2e9741e-985e-4f03-8630-cb7dee3618c0.jpg");
+@import url("image/d40a8aba-b1a7-43f3-ad7f-bdec2914a0fc.jpg");
+@import url("image/fb410f8f-d02c-4d67-b536-84b0b922aca2.jpg");
+@import url("image/d40a8aba-b1a7-43f3-ad7f-bdec2914a0fc.jpg");
+@import url("image/598e7567-1e4f-4d12-b9b7-c36347999416.jpg");
+@import url("image/d2e9741e-985e-4f03-8630-cb7dee3618c0.jpg");
+@import url("image/f9b90696-ba98-4212-bbf9-2647785ef865.jpg");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "myCustomfont";
+  src: url("/SourceSans3-Regular.ttf");
+}
+.hammenu .overlay {
+  height: 100%;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.hammenu .overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.hammenu .overlay a {
+  font-family: "myCustomfont", Source Sans Pro;
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+.hammenu .overlay a:hover, .hammenu .overlay a:focus {
+  color: #f1f1f1;
+}
+.hammenu .overlay .closebtn {
+  font-family: "myCustomfont", Source Sans Pro;
+  position: absolute;
+  top: 8px;
+  right: 33px;
+  font-size: 60px;
+}
+.hammenu span {
+  font-family: "myCustomfont", Source Sans Pro;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 40px;
+  padding-top: 35px;
+}
+
+#image {
+  background-image: url("image/f9b90696-ba98-4212-bbf9-2647785ef865.jpg");
+  height: 100vh;
+  background-position-y: center;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "myCustomfont", Source Sans Pro;
+}
+#image .first {
+  font-size: 40px;
+  font-weight: bold;
+}
+#image .head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  font-weight: bolder;
+  flex-wrap: wrap;
+  font-size: 18px;
+}
+#image .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  flex-wrap: wrap;
+}
+#image a {
+  font-family: "myCustomfont", Source Sans Pro;
+  background-color: rgb(20, 125, 151);
+  padding: 16px;
+  color: #fff;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: bolder;
+  width: 100px;
+  text-align: center;
+}
+
+#con {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-family: "myCustomfont", Source Sans Pro;
+}
+#con .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#con .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#con a {
+  text-align: center;
+  background-color: #000000;
+  padding: 16px;
+  width: 100px;
+  border-radius: 3px;
+  color: #fff;
+  margin: 50px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+#con h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+#con p {
+  font-size: 18px;
+  color: #000000;
+}
+
+#services {
+  background-color: rgb(0, 128, 163);
+}
+#services .container {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+#services .service {
+  padding-bottom: 50px;
+  text-align: center;
+}
+#services .service h2 {
+  font-size: 35px;
+  color: #fff;
+  font-family: "myCustomfont", Source Sans Pro;
+}
+#services .service h3 {
+  font-family: "myCustomfont", Source Sans Pro;
+  color: rgb(221, 189, 5);
+}
+#services .icon {
+  font-family: "myCustomfont", Source Sans Pro;
+  display: flex;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+}
+#services .head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+  text-align: center;
+}
+#services .head .circleMin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 70px;
+  width: 70px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+#services .head .circleMin .blue {
+  height: 30px;
+  width: 30px;
+}
+#services .head .circleMin1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 70px;
+  width: 70px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+#services .head .circleMin1 .blue {
+  color: #5A9CFF;
+  font-size: 23px;
+}
+#services .head h3 {
+  color: #fff;
+}
+#services .danny-mus {
+  height: 33px;
+  width: 33px;
+  background-color: #fff;
+  border-radius: 50px;
+}
+#services p {
+  font-family: "myCustomfont", Source Sans Pro;
+  font-size: 16px;
+}
+
+.site {
+  background-image: url(image/d2e9741e-985e-4f03-8630-cb7dee3618c0.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-position: left center;
+  padding-top: 200px;
+  padding-bottom: 150px;
+  font-family: "myCustomfont", Source Sans Pro;
+}
+.site .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.site a {
+  font-family: "myCustomfont", Source Sans Pro;
+  font-size: 15px;
+  padding: 16px;
+  color: #fff;
+  background-color: rgb(20, 125, 151);
+  width: 100px;
+  border-radius: 3px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.site .head {
+  font-family: "myCustomfont", Source Sans Pro;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.site .sharp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#folio {
+  font-family: "myCustomfont", Source Sans Pro;
+  margin-top: 93px;
+  margin-bottom: 100px;
+}
+#folio .head {
+  font-family: "myCustomfont", Source Sans Pro;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#folio .port {
+  display: flex;
+  justify-content: center;
+  color: rgb(221, 189, 5);
+  font-size: 18px;
+}
+#folio .portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 165px;
+  padding-right: 165px;
+}
+#folio .Sassy {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  justify-content: center;
+}
+#folio .box1 {
+  background-image: url(image/598e7567-1e4f-4d12-b9b7-c36347999416.jpg);
+  background-repeat: no-repeat;
+  width: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#folio .box1 .font {
+  font-weight: 100;
+  font-size: 16px;
+}
+#folio .box2 {
+  background-image: url(image/d40a8aba-b1a7-43f3-ad7f-bdec2914a0fc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 330px;
+}
+#folio .box2 .font {
+  font-size: 16px;
+  font-weight: 100;
+}
+#folio .box3 {
+  background-image: url(image/d2e9741e-985e-4f03-8630-cb7dee3618c0.jpg);
+  background-size: cover;
+  background-position-y: center;
+  width: 50%;
+}
+#folio .box3 .font {
+  font-size: 16px;
+  font-weight: 100;
+}
+#folio .box4 {
+  background-image: url(image/fb410f8f-d02c-4d67-b536-84b0b922aca2.jpg);
+  background-size: cover;
+  background-position-y: center;
+  width: 50%;
+  height: 330px;
+}
+#folio .box4 .font {
+  font-size: 16px;
+  font-weight: 100;
+}
+#folio .box {
+  color: #ffffff;
+}
+#folio h5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-family: "myCustomfont", Source Sans Pro;
+  margin-left: 23px;
+  top: 30vh;
+  position: relative;
+  top: 35vh;
+}
+#folio .boxx {
+  font-family: "myCustomfont", Source Sans Pro;
+  font-size: 10px;
+  font-weight: 600;
+  color: #fff;
+}
+#folio .lio {
+  font-size: 23px;
+}
+
+#buttons {
+  background-color: rgb(20, 125, 151);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "myCustomfont", Source Sans Pro;
+}
+#buttons .container {
+  margin-top: 85px;
+  margin-bottom: 60px;
+}
+#buttons h2 {
+  color: #fff;
+  font-size: 32px;
+}
+#buttons .contain {
+  padding-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+#buttons .head {
+  color: #ffffff;
+}
+#buttons .me {
+  font-family: "myCustomfont", Source Sans Pro;
+  background-color: #ffffff;
+  padding: 16px;
+  width: 100px;
+  border-radius: 3px;
+  text-align: center;
+  margin: 10px;
+  font-weight: 600;
+}
+#buttons .black {
+  color: #000000;
+}
+#buttons .you {
+  font-family: "myCustomfont", Source Sans Pro;
+  background-color: #000000;
+  padding: 16px;
+  width: 100px;
+  border-radius: 3px;
+  text-align: center;
+  margin: 10px;
+  font-weight: 600;
+}
+#buttons a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.maps img {
+  width: 100%;
+}
+
+.footer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .foot {
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  display: flex;
+}
+.footer .foot .black {
+  color: white;
+  font-size: 30px;
+}
+.footer .foot .circleMin {
+  align-content: center;
+  height: 50px;
+  width: 50px;
+  background-color: rgb(20, 125, 151);
+  border-radius: 50%;
+  gap: 40px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.footer .foot img {
+  height: 30px;
+  width: 30px;
+}
+.footer .copy {
+  font-family: "myCustomfont", Source Sans Pro;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 18px;
+  margin-left: 5px;
+}
+.footer .copy p {
+  padding-top: 22px;
+  font-size: 15px;
+}
+.footer .allcons {
+  justify-content: space-between;
+  display: flex;
+}
+
+@media (max-width: 568px) {
+  .hammenu .overlay a {
+    font-size: 20px;
+  }
+  .hammenu .overlay .closebtn {
+    font-size: 50px;
+    top: 6px;
+    right: 29px;
+  }
+  .hammenu span {
+    margin-right: 36px;
+    padding-top: 27px;
+  }
+  .hammenu .overlay {
+    background-color: rgb(0, 0, 0);
+  }
+  #image {
+    overflow: hidden;
+    width: 100%;
+    height: 55vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-size: cover;
+    background-position-y: center;
+  }
+  #image h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+  }
+  #image p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+  #image a {
+    border-radius: 3px;
+    font-size: 9px;
+    width: 60px;
+  }
+  #image .container {
+    padding-top: 100px;
+  }
+  #image .button {
+    margin: 30px;
+  }
+  #con {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #con h2 {
+    text-align: center;
+    font-size: 13px;
+  }
+  #con p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 10px;
+  }
+  #con a {
+    font-size: 9px;
+    width: 60px;
+    margin: 0px;
+    margin-top: 25px;
+  }
+  #con .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  #services {
+    padding-right: 0px;
+    overflow: hidden;
+  }
+  #services h3 {
+    font-weight: 700;
+    margin-top: 16px;
+    font-size: 13px;
+    margin-bottom: 2px;
+  }
+  #services .service {
+    padding-bottom: 0px;
+    padding-left: 0px;
+  }
+  #services .service h2 {
+    font-weight: 600;
+    font-size: 18px;
+  }
+  #services .danny-mus {
+    height: 20px;
+    width: 20px;
+    padding: 0px;
+  }
+  #services .icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #services .head1 {
+    display: none;
+  }
+  #services .head2 {
+    margin-left: 40px;
+  }
+  #services .head {
+    padding-top: 15px;
+    margin: 0px;
+    margin-left: 0px;
+  }
+  #services .head .circleMin {
+    height: 45px;
+    width: 45px;
+  }
+  #services .head .circleMin .blue {
+    height: 20px;
+    width: 20px;
+  }
+  #services .head .circleMin1 {
+    height: 45px;
+    width: 45px;
+  }
+  #services .head .shoe {
+    font-size: 8px;
+    color: rgba(255, 255, 255, 0.815);
+  }
+  #services p {
+    font-size: 10px;
+  }
+  #services .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .site {
+    padding-bottom: 56px;
+    padding-top: 70px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-size: cover;
+    background-position-y: center;
+    overflow: hidden;
+  }
+  .site h2 {
+    font-size: 13px;
+  }
+  .site a {
+    font-size: 9px;
+    width: 68px;
+  }
+  .site .button {
+    margin: 20px;
+  }
+  #folio {
+    overflow: hidden;
+    margin: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #folio .lio {
+    font-size: 13px;
+  }
+  #folio .port {
+    font-size: 13px;
+  }
+  #folio .box {
+    margin-left: 6px;
+    padding-top: 18px;
+  }
+  #folio h5 {
+    position: relative;
+    margin-left: 5px;
+    top: 20vh;
+  }
+  #folio p {
+    font-size: 15px;
+  }
+  #folio .box3 {
+    width: 336px;
+    height: 224px;
+  }
+  #folio .box3 .font {
+    font-size: 10px;
+    font-weight: 100;
+  }
+  #folio .box3 .boxx {
+    font-size: 8px;
+  }
+  #folio .box4 {
+    width: 336px;
+    height: 224px;
+    font-size: 9px;
+  }
+  #folio .box4 .font {
+    font-size: 10px;
+    font-weight: 100;
+  }
+  #folio .box4 .boxx {
+    font-size: 8px;
+  }
+  #folio .box1 {
+    background-size: cover;
+    width: 336px;
+    height: 224px;
+    font-size: 10px;
+  }
+  #folio .box1 .font {
+    font-size: 10px;
+    font-weight: 100;
+  }
+  #folio .box1 .boxx {
+    font-size: 8px;
+  }
+  #folio .box2 {
+    background-size: cover;
+    width: 336px;
+    height: 224px;
+  }
+  #folio .box2 .font {
+    font-size: 10px;
+    font-weight: 100;
+  }
+  #folio .box2 .boxx {
+    font-size: 8px;
+  }
+  #folio .Sassy {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 12px;
+    justify-content: center;
+  }
+  #buttons {
+    overflow: hidden;
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 23px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #buttons h2 {
+    text-align: center;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 32px;
+  }
+  #buttons .container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #buttons a {
+    font-size: 9px;
+  }
+  #buttons .me {
+    margin-top: 0px;
+    width: 68px;
+    padding: 10px;
+  }
+  #buttons .you {
+    margin-top: 0px;
+    width: 68px;
+    padding: 10px;
+  }
+  #buttons .contain {
+    padding-top: 2px;
+  }
+  .footer {
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .footer .copy p {
+    padding-top: 3px;
+    font-size: 9px;
+  }
+  .footer .copy .qwerty {
+    font-size: 10px;
+    color: black;
+  }
+  .footer .foot {
+    margin: 0px;
+  }
+  .footer .foot .circleMin {
+    height: 35px;
+    width: 35px;
+  }
+  .footer .foot .circleMin .black {
+    font-size: 15px;
+  }
+  .footer span {
+    margin: 10px;
+  }
+  .maps img {
+    height: 30vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media (min-width: 569px) and (max-width: 768px) {
+  .hammenu .overlay a {
+    font-size: 40px;
+  }
+  .hammenu .overlay .closebtn {
+    font-size: 58px;
+    top: 7px;
+    right: 44px;
+  }
+  .hammenu span {
+    margin-right: 54px;
+    padding-top: 33px;
+  }
+  .hammenu .overlay {
+    background-color: rgb(0, 0, 0);
+  }
+  #image {
+    overflow: hidden;
+    width: 100%;
+    height: 56vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-size: cover;
+    background-position-y: center;
+  }
+  #image h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+  }
+  #image p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+  #image a {
+    padding: 16px;
+    width: 94px;
+    font-size: 14px;
+  }
+  #image .container {
+    padding-top: 100px;
+  }
+  #image .button {
+    margin: 35px;
+  }
+  #con {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  #con h2 {
+    text-align: center;
+    font-size: 27px;
+  }
+  #con p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+  }
+  #con a {
+    font-size: 14px;
+    width: 94px;
+    margin: 0px;
+    margin-top: 35px;
+  }
+  #con .container {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  #services {
+    padding-right: 5px;
+    overflow: hidden;
+  }
+  #services h3 {
+    font-size: 16px;
+  }
+  #services .icon {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+  }
+  #services p {
+    font-size: 11px;
+  }
+  #services .container {
+    padding-top: 80px;
+    padding-right: 50px;
+    padding-right: 57px;
+    padding-left: 46px;
+    padding-bottom: 80px;
+  }
+  #services .head2 {
+    margin-left: 0px;
+  }
+  #services .danny-mus {
+    height: 23px;
+    width: 23px;
+    padding: 0px;
+  }
+  #services .head .circleMin {
+    align-content: center;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+  }
+  #services .head .circleMin .blue {
+    height: 20px;
+    width: 20px;
+  }
+  #services .head .circleMin1 {
+    height: 55px;
+    width: 55px;
+  }
+  #services .head .shoe {
+    font-size: 9px;
+  }
+  #services .service {
+    padding-bottom: 40px;
+  }
+  #services .service h2 {
+    font-size: 29px;
+  }
+  .site {
+    padding-bottom: 90px;
+    padding-top: 90px;
+    overflow: hidden;
+  }
+  .site h2 {
+    font-size: 27px;
+  }
+  .site a {
+    padding: 16px;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+    width: 94px;
+  }
+  .site .button {
+    margin: 8px;
+  }
+  #folio {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  #folio .portfolio {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #folio h5 {
+    margin-left: 20px;
+  }
+  #folio h2 {
+    margin-left: 30px;
+  }
+  #folio .box1 .font, #folio .box2 .font, #folio .box3 .font, #folio .box4 .font {
+    font-size: 11px;
+    font-weight: 100;
+  }
+  #folio .box1 .boxx, #folio .box2 .boxx, #folio .box3 .boxx, #folio .box4 .boxx {
+    font-size: 9px;
+  }
+  #folio .box2, #folio .box4 {
+    width: 50%;
+    height: 300px;
+  }
+  #folio .port {
+    font-size: 16px;
+  }
+  #folio .lio {
+    font-size: 21px;
+  }
+  #folio h5 {
+    position: relative;
+    top: 20vh;
+  }
+  #buttons {
+    overflow: hidden;
+    margin-top: 0px;
+    padding-top: 80px;
+    padding-bottom: 65px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #buttons h2 {
+    font-size: 27px;
+    text-align: center;
+  }
+  #buttons .container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #buttons a {
+    font-size: 14px;
+  }
+  #buttons .me {
+    font-weight: bold;
+    margin-top: 0px;
+    width: 94px;
+    padding: 16px;
+  }
+  #buttons .you {
+    font-weight: bold;
+    margin-top: 0px;
+    width: 94px;
+    padding: 16px;
+  }
+  #buttons .contain {
+    padding-top: 5px;
+  }
+  .maps .container iframe {
+    height: 30vh;
+    width: 100%;
+  }
+  .footer {
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-bottom: px;
+  }
+  .footer .copy p {
+    font-size: 13px;
+  }
+  .footer .copy p .qwerty {
+    font-size: 10px;
+  }
+  .footer .foot {
+    margin: 0px;
+  }
+  .footer .foot .circleMin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 45px;
+    margin-bottom: 0px;
+  }
+  .footer .foot .black {
+    color: white;
+    font-size: 18px;
+  }
+  .footer span {
+    margin: 20px;
+  }
+}
+@media (min-width: 769px) and (max-width: 920px) {
+  .hammenu .overlay a {
+    font-size: 40px;
+  }
+  .hammenu .overlay .closebtn {
+    font-size: 58px;
+    top: 7px;
+    right: 44px;
+  }
+  .hammenu span {
+    margin-right: 54px;
+    padding-top: 33px;
+  }
+  .hammenu .overlay-content {
+    top: 13%;
+  }
+  .hammenu .overlay {
+    background-color: rgb(0, 0, 0);
+  }
+  #image {
+    overflow: hidden;
+    width: 100%;
+    height: 48vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-size: cover;
+    background-position-y: center;
+  }
+  #image h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+  }
+  #image p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+  #image a {
+    padding: 16px;
+    font-size: 14px;
+    width: 94px;
+  }
+  #image .container {
+    padding-top: 100px;
+  }
+  #image .button {
+    margin: 40px;
+  }
+  #con {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  #con h2 {
+    text-align: center;
+    font-size: 27px;
+  }
+  #con p {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  #con a {
+    padding: 16px;
+    font-size: 14px;
+    width: 94px;
+    margin: 0px;
+    margin-top: 40px;
+  }
+  #con .container {
+    padding-right: 76px;
+    padding-left: 76px;
+  }
+  #services {
+    padding-right: 0px;
+    overflow: hidden;
+  }
+  #services h3 {
+    font-size: 16px;
+  }
+  #services .icon {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+  }
+  #services p {
+    font-size: 12px;
+  }
+  #services .container {
+    padding-right: 50px;
+    padding-left: 40px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+  #services .head2 {
+    margin-left: 0px;
+  }
+  #services .danny-mus {
+    padding: 0px;
+    height: 23px;
+    width: 23px;
+  }
+  #services .head {
+    margin-left: 15px;
+  }
+  #services .head .circleMin {
+    align-content: center;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+  }
+  #services .head .circleMin .blue {
+    height: 20px;
+    width: 20px;
+  }
+  #services .head .circleMin1 {
+    height: 55px;
+    width: 55px;
+  }
+  #services .service {
+    padding-bottom: 40px;
+    padding-left: 0px;
+    text-align: center;
+  }
+  #services .service h2 {
+    font-size: 29px;
+  }
+  .site {
+    padding-bottom: 110px;
+    padding-top: 102px;
+    overflow: hidden;
+  }
+  .site h2 {
+    font-size: 27px;
+  }
+  .site a {
+    border-radius: 3px;
+    padding: 16px;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+    width: 94px;
+  }
+  .site .button {
+    margin: 8px;
+  }
+  #folio .box1 .font, #folio .box2 .font, #folio .box3 .font, #folio .box4 .font {
+    font-weight: 100;
+    font-size: 12px;
+  }
+  #folio .box1 .boxx, #folio .box2 .boxx, #folio .box3 .boxx, #folio .box4 .boxx {
+    font-size: 10px;
+  }
+  #folio .portfolio {
+    padding-left: 76px;
+    padding-right: 76px;
+  }
+  #folio h2 {
+    margin-left: 30px;
+  }
+  #folio .port {
+    font-size: 16px;
+  }
+  #folio .lio {
+    font-size: 21px;
+  }
+  #folio .box2, #folio .box4 {
+    height: 280px;
+  }
+  #folio h5 {
+    position: relative;
+    top: 16vh;
+  }
+  #buttons {
+    overflow: hidden;
+    margin-top: 0px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-left: 42px;
+    padding-right: 20px;
+  }
+  #buttons h2 {
+    font-size: 27px;
+    text-align: center;
+    padding-left: 32px;
+  }
+  #buttons .contain {
+    padding-top: 0px;
+  }
+  #buttons .container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #buttons a {
+    font-size: 14px;
+  }
+  #buttons .me {
+    margin-top: 0px;
+    width: 94px;
+    padding: 16px;
+    font-weight: bold;
+  }
+  #buttons .you {
+    font-weight: bold;
+    margin-top: 0px;
+    width: 94px;
+    padding: 16px;
+  }
+  .maps .container iframe {
+    height: 30vh;
+    width: 100%;
+  }
+  .footer {
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-bottom: px;
+  }
+  .footer p {
+    font-size: 17px;
+  }
+  .footer .foot {
+    margin: 0px;
+  }
+  .footer .foot .black {
+    color: white;
+    font-size: 18px;
+  }
+  .footer span {
+    margin: 20px;
+  }
+}
+@media (min-width: 921px) and (max-width: 1024px) {
+  .hammenu .overlay-content {
+    top: 10%;
+  }
+  .hammenu .overlay {
+    height: 100%;
+  }
+  .hammenu .overlay a {
+    font-size: 40px;
+  }
+  .hammenu .overlay .closebtn {
+    font-size: 58px;
+    top: 7px;
+    right: 44px;
+  }
+  .hammenu span {
+    margin-right: 54px;
+    padding-top: 33px;
+  }
+  .hammenu .overlay {
+    background-color: rgb(0, 0, 0);
+  }
+  #image {
+    overflow: hidden;
+    width: 100%;
+    height: 42vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-size: cover;
+    background-position-y: center;
+  }
+  #image h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+  }
+  #image .button {
+    margin: 45px;
+  }
+  #image p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  }
+  #image a {
+    padding: 16px;
+    font-size: 17px;
+    width: 120px;
+  }
+  #image .container {
+    padding-top: 100px;
+  }
+  #con {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  #con h2 {
+    text-align: center;
+    font-size: 32px;
+  }
+  #con p {
+    padding-top: 18px;
+    font-size: 18px;
+  }
+  #con a {
+    padding: 16px;
+    font-size: 17px;
+    width: 120px;
+    margin: 0px;
+    margin-top: 45px;
+  }
+  #con .container {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  #services .container {
+    padding-right: 50px;
+    padding-left: 46px;
+    padding-top: 100px;
+    padding-bottom: 96px;
+  }
+  #services .head {
+    margin-left: 28px;
+  }
+  #services .head .circleMin1 {
+    margin-bottom: 0px;
+    height: 65px;
+    width: 65px;
+  }
+  #services .head .circleMin {
+    height: 65px;
+    width: 65px;
+  }
+  #services .danny-mus {
+    padding: 0px;
+  }
+  #services .service h2 {
+    font-size: 35px;
+  }
+  .site {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    overflow: hidden;
+  }
+  .site h2 {
+    font-size: 32px;
+  }
+  .site a {
+    margin-top: 30px;
+    font-size: 17px;
+    width: 120px;
+    padding: 16px;
+  }
+  .site .button {
+    margin: 15px;
+  }
+  #folio {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  #folio .portfolio {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  #folio h5 {
+    position: relative;
+    top: 16vh;
+  }
+  #folio h2 {
+    margin-left: 30px;
+  }
+  #folio .lio {
+    font-size: 23px;
+  }
+  #folio .port {
+    font-size: 18px;
+  }
+  #folio .box1 .font, #folio .box2 .font, #folio .box3 .font, #folio .box4 .font {
+    font-size: 16px;
+  }
+  #folio .box1 .boxx, #folio .box2 .boxx, #folio .box3 .boxx, #folio .box4 .boxx {
+    font-size: 13px;
+  }
+  #buttons {
+    overflow: hidden;
+    margin-top: 0px;
+    padding-top: 100px;
+    padding-bottom: 90px;
+    padding-left: 42px;
+    padding-right: 20px;
+  }
+  #buttons h2 {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 32px;
+  }
+  #buttons .container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #buttons a {
+    font-size: 17px;
+  }
+  #buttons .me {
+    margin-top: 0px;
+    width: 120px;
+    padding: 16px;
+    font-weight: bold;
+  }
+  #buttons .you {
+    font-weight: bold;
+    margin-top: 0px;
+    width: 120px;
+    padding: 16px;
+  }
+  #buttons .contain {
+    padding-top: 0px;
+  }
+  .maps .container iframe {
+    height: 30vh;
+    width: 100%;
+  }
+  .footer {
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-bottom: px;
+  }
+  .footer p {
+    font-size: 18px;
+  }
+  .footer .foot {
+    margin: 0px;
+  }
+  .footer .foot .circleMin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .foot .black {
+    color: white;
+    font-size: 20px;
+  }
+  .footer span {
+    margin: 20px;
+  }
+}/*# sourceMappingURL=index.css.map */
