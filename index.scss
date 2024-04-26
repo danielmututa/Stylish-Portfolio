@@ -383,7 +383,7 @@ margin-bottom: 100px;
         width: 50%;
     object-fit: cover;
     .font{
-        font-weight: 110;
+        
         font-size: 16px;
        }
 
@@ -398,7 +398,7 @@ margin-bottom: 100px;
       height: 330px; 
       .font{
         font-size: 16px;
-        font-weight: 100;
+        
        }
      
     }
@@ -411,7 +411,7 @@ margin-bottom: 100px;
       
         .font{
             font-size: 16px;
-            font-weight: 100;
+            
            }
        
     }
@@ -424,9 +424,7 @@ margin-bottom: 100px;
        height: 330px;
        
        .font{
-        // top: 20vh;
         font-size: 16px;
-        font-weight: 100;
        }
        
     }
@@ -451,7 +449,7 @@ margin-bottom: 100px;
     .boxx{
         font-family: "myCustomfont", Source Sans Pro;
         font-size:$base-boxx;
-        font-weight: 700;
+        font-weight: bold;
         color: $whitetwo;
     }
    
@@ -843,9 +841,11 @@ h5 {
         width: 336px;
         height: 224px;
         .font{
+            
             font-size:$small-paragraph;
         }
         .boxx{
+            font-weight: bold;
             font-size: 8px;
         }
        
@@ -857,10 +857,12 @@ h5 {
         
         font-size:$small-a;
         .font{
+            
             font-size:$small-paragraph;
             
         }
         .boxx{
+            font-weight: bold;
             font-size: 8px;
         }
     }
@@ -871,12 +873,12 @@ h5 {
         background-size: cover;
         width: 336px;
         height: 224px;
-       font-size: 10px;
        .font{
         font-size:$small-paragraph;
-        font-weight: 100;
+    
     }
     .boxx{
+        font-weight: bold;
         font-size: 8px;
     }
 
@@ -894,9 +896,10 @@ h5 {
         height: 224px;
         .font{
             font-size:$small-paragraph;
-            font-weight: 100;
+            
         }
         .boxx{
+            font-weight: bold;
             font-size: 8px;
         }
     }
@@ -1201,9 +1204,10 @@ padding-bottom: 80px;
    .box1,.box2,.box3,.box4{
     .font{
         font-size: 11px;
-        // font-weight: 100;
+    
        }
        .boxx{
+        font-weight: bold;
         font-size: 9px;
        }
    }
@@ -1507,10 +1511,11 @@ padding-bottom: 90px;
 #folio{
     .box1,.box2,.box3,.box4{
         .font{
-            // font-weight: 100;
+            
             font-size: 12px;
            }  
            .boxx{
+            font-weight: bold;
             font-size: 10px;
            }
     }
@@ -1579,7 +1584,6 @@ padding-bottom: 90px;
 
 .maps{
     .container{
-        // height: 3vh;
         iframe{
             height: 30vh;
             width: 100%;
@@ -1800,6 +1804,7 @@ margin-left: 28px;
 font-size: 16px;
     }
     .boxx{
+        font-weight: bold;
         font-size: 13px;
     }
    }

@@ -298,7 +298,6 @@
      object-fit: cover;
 }
 #folio .box1 .font {
-  font-weight: 110;
   font-size: 16px;
 }
 #folio .box2 {
@@ -310,7 +309,6 @@
 }
 #folio .box2 .font {
   font-size: 16px;
-  font-weight: 100;
 }
 #folio .box3 {
   background-image: url(image/d2e9741e-985e-4f03-8630-cb7dee3618c0.jpg);
@@ -320,7 +318,6 @@
 }
 #folio .box3 .font {
   font-size: 16px;
-  font-weight: 100;
 }
 #folio .box4 {
   background-image: url(image/fb410f8f-d02c-4d67-b536-84b0b922aca2.jpg);
@@ -331,7 +328,6 @@
 }
 #folio .box4 .font {
   font-size: 16px;
-  font-weight: 100;
 }
 #folio .box {
   color: #ffffff;
@@ -349,7 +345,7 @@
 #folio .boxx {
   font-family: "myCustomfont", Source Sans Pro;
   font-size: 10px;
-  font-weight: 700;
+  font-weight: bold;
   color: #fff;
 }
 #folio .lio {
@@ -653,6 +649,7 @@
     font-size: 10px;
   }
   #folio .box3 .boxx {
+    font-weight: bold;
     font-size: 8px;
   }
   #folio .box4 {
@@ -664,19 +661,19 @@
     font-size: 10px;
   }
   #folio .box4 .boxx {
+    font-weight: bold;
     font-size: 8px;
   }
   #folio .box1 {
     background-size: cover;
     width: 336px;
     height: 224px;
-    font-size: 10px;
   }
   #folio .box1 .font {
     font-size: 10px;
-    font-weight: 100;
   }
   #folio .box1 .boxx {
+    font-weight: bold;
     font-size: 8px;
   }
   #folio .box2 {
@@ -686,9 +683,9 @@
   }
   #folio .box2 .font {
     font-size: 10px;
-    font-weight: 100;
   }
   #folio .box2 .boxx {
+    font-weight: bold;
     font-size: 8px;
   }
   #folio .Sassy {
@@ -931,6 +928,7 @@
     font-size: 11px;
   }
   #folio .box1 .boxx, #folio .box2 .boxx, #folio .box3 .boxx, #folio .box4 .boxx {
+    font-weight: bold;
     font-size: 9px;
   }
   #folio .box2, #folio .box4 {
@@ -1173,6 +1171,7 @@
     font-size: 12px;
   }
   #folio .box1 .boxx, #folio .box2 .boxx, #folio .box3 .boxx, #folio .box4 .boxx {
+    font-weight: bold;
     font-size: 10px;
   }
   #folio .portfolio {
@@ -1401,6 +1400,7 @@
     font-size: 16px;
   }
   #folio .box1 .boxx, #folio .box2 .boxx, #folio .box3 .boxx, #folio .box4 .boxx {
+    font-weight: bold;
     font-size: 13px;
   }
   #buttons {
