@@ -383,7 +383,7 @@ margin-bottom: 100px;
         width: 50%;
     object-fit: cover;
     .font{
-        
+        font-weight: 500;
         font-size: 16px;
        }
 
@@ -398,7 +398,7 @@ margin-bottom: 100px;
       height: 330px; 
       .font{
         font-size: 16px;
-        
+        font-weight: 500;
        }
      
     }
@@ -410,6 +410,7 @@ margin-bottom: 100px;
         width: 50%;
       
         .font{
+            font-weight: 500;
             font-size: 16px;
             
            }
@@ -425,6 +426,7 @@ margin-bottom: 100px;
        
        .font{
         font-size: 16px;
+        font-weight: 500;
        }
        
     }
@@ -558,7 +560,7 @@ img{
     color: white;
     font-size: 30px;
    }
-    // align-items: ;
+    
     text-align: center;
     display: flex;
 
@@ -735,7 +737,6 @@ text-align: center;
     }
     .head2{
     
-        // font-weight: 400;
         margin-left: 40px;
     }
     .head{
@@ -841,7 +842,7 @@ h5 {
         width: 336px;
         height: 224px;
         .font{
-            
+            font-weight: 500;
             font-size:$small-paragraph;
         }
         .boxx{
@@ -857,7 +858,7 @@ h5 {
         
         font-size:$small-a;
         .font{
-            
+            font-weight: 500;
             font-size:$small-paragraph;
             
         }
@@ -875,7 +876,7 @@ h5 {
         height: 224px;
        .font{
         font-size:$small-paragraph;
-    
+    font-weight: 500;
     }
     .boxx{
         font-weight: bolder;
@@ -896,7 +897,7 @@ h5 {
         height: 224px;
         .font{
             font-size:$small-paragraph;
-            
+            font-weight: 500;
         }
         .boxx{
             font-weight: bolder;
@@ -1204,7 +1205,7 @@ padding-bottom: 80px;
    .box1,.box2,.box3,.box4{
     .font{
         font-size: 11px;
-    
+    font-weight: 500;
        }
        .boxx{
         font-weight: bolder;
@@ -1511,7 +1512,7 @@ padding-bottom: 90px;
 #folio{
     .box1,.box2,.box3,.box4{
         .font{
-            
+            font-weight: 500;
             font-size: 12px;
            }  
            .boxx{
@@ -1801,6 +1802,7 @@ margin-left: 28px;
    }
    .box1,.box2,.box3,.box4{
     .font{
+        font-weight: 500;
 font-size: 16px;
     }
     .boxx{

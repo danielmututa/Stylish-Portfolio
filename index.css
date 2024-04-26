@@ -298,6 +298,7 @@
      object-fit: cover;
 }
 #folio .box1 .font {
+  font-weight: 500;
   font-size: 16px;
 }
 #folio .box2 {
@@ -309,6 +310,7 @@
 }
 #folio .box2 .font {
   font-size: 16px;
+  font-weight: 500;
 }
 #folio .box3 {
   background-image: url(image/d2e9741e-985e-4f03-8630-cb7dee3618c0.jpg);
@@ -317,6 +319,7 @@
   width: 50%;
 }
 #folio .box3 .font {
+  font-weight: 500;
   font-size: 16px;
 }
 #folio .box4 {
@@ -328,6 +331,7 @@
 }
 #folio .box4 .font {
   font-size: 16px;
+  font-weight: 500;
 }
 #folio .box {
   color: #ffffff;
@@ -646,6 +650,7 @@
     height: 224px;
   }
   #folio .box3 .font {
+    font-weight: 500;
     font-size: 10px;
   }
   #folio .box3 .boxx {
@@ -658,6 +663,7 @@
     font-size: 9px;
   }
   #folio .box4 .font {
+    font-weight: 500;
     font-size: 10px;
   }
   #folio .box4 .boxx {
@@ -671,6 +677,7 @@
   }
   #folio .box1 .font {
     font-size: 10px;
+    font-weight: 500;
   }
   #folio .box1 .boxx {
     font-weight: bolder;
@@ -683,6 +690,7 @@
   }
   #folio .box2 .font {
     font-size: 10px;
+    font-weight: 500;
   }
   #folio .box2 .boxx {
     font-weight: bolder;
@@ -926,6 +934,7 @@
   }
   #folio .box1 .font, #folio .box2 .font, #folio .box3 .font, #folio .box4 .font {
     font-size: 11px;
+    font-weight: 500;
   }
   #folio .box1 .boxx, #folio .box2 .boxx, #folio .box3 .boxx, #folio .box4 .boxx {
     font-weight: bolder;
@@ -1168,6 +1177,7 @@
     margin: 8px;
   }
   #folio .box1 .font, #folio .box2 .font, #folio .box3 .font, #folio .box4 .font {
+    font-weight: 500;
     font-size: 12px;
   }
   #folio .box1 .boxx, #folio .box2 .boxx, #folio .box3 .boxx, #folio .box4 .boxx {
@@ -1397,6 +1407,7 @@
     font-size: 18px;
   }
   #folio .box1 .font, #folio .box2 .font, #folio .box3 .font, #folio .box4 .font {
+    font-weight: 500;
     font-size: 16px;
   }
   #folio .box1 .boxx, #folio .box2 .boxx, #folio .box3 .boxx, #folio .box4 .boxx {
