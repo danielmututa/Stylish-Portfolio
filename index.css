@@ -101,7 +101,7 @@
   border-radius: 3px;
   text-decoration: none;
   font-weight: bolder;
-  width: 101px;
+  width: 110px;
   text-align: center;
 }
 
@@ -124,7 +124,7 @@
   text-align: center;
   background-color: #000000;
   padding: 16px;
-  width: 100px;
+  width: 110px;
   border-radius: 3px;
   color: #fff;
   margin: 50px;
@@ -240,7 +240,7 @@
   padding: 16px;
   color: #fff;
   background-color: rgb(20, 125, 151);
-  width: 100px;
+  width: 110px;
   border-radius: 3px;
   font-weight: bolder;
   text-decoration: none;
@@ -298,7 +298,7 @@
      object-fit: cover;
 }
 #folio .box1 .font {
-  font-weight: 100;
+  font-weight: 110;
   font-size: 16px;
 }
 #folio .box2 {
@@ -349,7 +349,7 @@
 #folio .boxx {
   font-family: "myCustomfont", Source Sans Pro;
   font-size: 10px;
-  font-weight: 600;
+  font-weight: 700;
   color: #fff;
 }
 #folio .lio {
@@ -386,7 +386,7 @@
   font-family: "myCustomfont", Source Sans Pro;
   background-color: #ffffff;
   padding: 16px;
-  width: 100px;
+  width: 110px;
   border-radius: 3px;
   text-align: center;
   margin: 10px;
@@ -399,7 +399,7 @@
   font-family: "myCustomfont", Source Sans Pro;
   background-color: #000000;
   padding: 16px;
-  width: 100px;
+  width: 110px;
   border-radius: 3px;
   text-align: center;
   margin: 10px;
@@ -662,7 +662,6 @@
   }
   #folio .box4 .font {
     font-size: 10px;
-    font-weight: 100;
   }
   #folio .box4 .boxx {
     font-size: 8px;
@@ -930,7 +929,6 @@
   }
   #folio .box1 .font, #folio .box2 .font, #folio .box3 .font, #folio .box4 .font {
     font-size: 11px;
-    font-weight: 100;
   }
   #folio .box1 .boxx, #folio .box2 .boxx, #folio .box3 .boxx, #folio .box4 .boxx {
     font-size: 9px;
@@ -1172,7 +1170,6 @@
     margin: 8px;
   }
   #folio .box1 .font, #folio .box2 .font, #folio .box3 .font, #folio .box4 .font {
-    font-weight: 100;
     font-size: 12px;
   }
   #folio .box1 .boxx, #folio .box2 .boxx, #folio .box3 .boxx, #folio .box4 .boxx {

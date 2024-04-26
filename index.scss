@@ -126,7 +126,7 @@ color: $whitetwo;
 border-radius: 3px;
 text-decoration: none;
 font-weight: bolder;
-width: 101px;
+width: 110px;
 text-align: center;
 
 }
@@ -164,7 +164,7 @@ text-align: center;
     text-align: center;
     background-color: $black;
     padding: 16px;
-    width: 100px;
+    width: 110px;
     border-radius: 3px;
 color:$whitetwo;
 margin: 50px;
@@ -312,7 +312,7 @@ width: 30px;
         padding: 16px;
         color: $whitetwo;
         background-color: $cadetblue;
-        width: 100px;
+        width: 110px;
         border-radius: 3px;
         font-weight: bolder;
         text-decoration: none;
@@ -383,7 +383,7 @@ margin-bottom: 100px;
         width: 50%;
     object-fit: cover;
     .font{
-        font-weight: 100;
+        font-weight: 110;
         font-size: 16px;
        }
 
@@ -451,7 +451,7 @@ margin-bottom: 100px;
     .boxx{
         font-family: "myCustomfont", Source Sans Pro;
         font-size:$base-boxx;
-        font-weight: 600;
+        font-weight: 700;
         color: $whitetwo;
     }
    
@@ -497,7 +497,7 @@ h2{
         font-family: "myCustomfont", Source Sans Pro;
         background-color:$white;
         padding: 16px;
-        width: 100px;
+        width: 110px;
         border-radius: 3px;
         text-align: center;
         margin: 10px;
@@ -513,7 +513,7 @@ h2{
         font-family: "myCustomfont", Source Sans Pro;
         background-color:$black ;
         padding: 16px;
-        width: 100px;
+        width: 110px;
         border-radius: 3px;
         text-align: center;
         margin: 10px;   
@@ -858,7 +858,7 @@ h5 {
         font-size:$small-a;
         .font{
             font-size:$small-paragraph;
-            font-weight: 100;
+            
         }
         .boxx{
             font-size: 8px;
@@ -1201,7 +1201,7 @@ padding-bottom: 80px;
    .box1,.box2,.box3,.box4{
     .font{
         font-size: 11px;
-        font-weight: 100;
+        // font-weight: 100;
        }
        .boxx{
         font-size: 9px;
@@ -1507,7 +1507,7 @@ padding-bottom: 90px;
 #folio{
     .box1,.box2,.box3,.box4{
         .font{
-            font-weight: 100;
+            // font-weight: 100;
             font-size: 12px;
            }  
            .boxx{
