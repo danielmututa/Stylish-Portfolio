@@ -345,7 +345,7 @@
 #folio .boxx {
   font-family: "myCustomfont", Source Sans Pro;
   font-size: 10px;
-  font-weight: bold;
+  font-weight: bolder;
   color: #fff;
 }
 #folio .lio {
@@ -649,7 +649,7 @@
     font-size: 10px;
   }
   #folio .box3 .boxx {
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 8px;
   }
   #folio .box4 {
@@ -661,7 +661,7 @@
     font-size: 10px;
   }
   #folio .box4 .boxx {
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 8px;
   }
   #folio .box1 {
@@ -673,7 +673,7 @@
     font-size: 10px;
   }
   #folio .box1 .boxx {
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 8px;
   }
   #folio .box2 {
@@ -685,7 +685,7 @@
     font-size: 10px;
   }
   #folio .box2 .boxx {
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 8px;
   }
   #folio .Sassy {
@@ -928,7 +928,7 @@
     font-size: 11px;
   }
   #folio .box1 .boxx, #folio .box2 .boxx, #folio .box3 .boxx, #folio .box4 .boxx {
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 9px;
   }
   #folio .box2, #folio .box4 {
@@ -1171,7 +1171,7 @@
     font-size: 12px;
   }
   #folio .box1 .boxx, #folio .box2 .boxx, #folio .box3 .boxx, #folio .box4 .boxx {
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 10px;
   }
   #folio .portfolio {
@@ -1400,7 +1400,7 @@
     font-size: 16px;
   }
   #folio .box1 .boxx, #folio .box2 .boxx, #folio .box3 .boxx, #folio .box4 .boxx {
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 13px;
   }
   #buttons {
