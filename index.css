@@ -101,7 +101,7 @@
   border-radius: 3px;
   text-decoration: none;
   font-weight: bolder;
-  width: 100px;
+  width: 101px;
   text-align: center;
 }
 
@@ -651,7 +651,6 @@
   }
   #folio .box3 .font {
     font-size: 10px;
-    font-weight: 100;
   }
   #folio .box3 .boxx {
     font-size: 8px;
